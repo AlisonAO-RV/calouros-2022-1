@@ -1,0 +1,14 @@
+{
+  "name": "calouros-2022-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AlisonAO-RV/calouros-2022-1.git",
+  "author": "AlisonAO-RV <alisonrv@msn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
