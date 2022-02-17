@@ -6,7 +6,7 @@
   "author": "AlisonAO-RV <alisonrv@msn.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon",
+    "start": "node index.js",
     "production": "pm2 start index.js --name knowledge-backend"
   },
   "dependencies": {
