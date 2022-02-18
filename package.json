@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "node index.js",
-    "start": "pm2 start index.js --name knowledge-backend"
+    "start": "pm2 dev index.js --name calouros-2022-1"
   },
   "dependencies": {
     "cors": "^2.8.5",
