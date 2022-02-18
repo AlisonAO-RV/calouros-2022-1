@@ -6,8 +6,8 @@
   "author": "AlisonAO-RV <alisonrv@msn.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js",
-    "production": "pm2 start index.js --name knowledge-backend"
+    "dev": "node index.js",
+    "start": "pm2 start index.js --name knowledge-backend"
   },
   "dependencies": {
     "cors": "^2.8.5",
