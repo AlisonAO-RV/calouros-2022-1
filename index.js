@@ -11,6 +11,6 @@ consign()
   .then("./config/routes.js")
   .into(app);
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log("Backend executando...");
 });
