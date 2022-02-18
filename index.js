@@ -11,6 +11,7 @@ consign()
   .then("./config/routes.js")
   .into(app);
 
-app.listen(80, () => {
+var porta = process.env.PORT || 3000;
+app.listen(porta, () => {
   console.log("Backend executando...");
 });
